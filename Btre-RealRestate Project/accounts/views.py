@@ -59,7 +59,10 @@ def login(request):
 
 
 def logout(request):
-    return redirect("index")
+    if request.method == "POST":
+        auth.logout(request)
+        messages.error(request,"You Logout..!")
+        return redirect("index")
 
 
 
