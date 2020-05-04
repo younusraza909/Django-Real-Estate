@@ -61,7 +61,7 @@ def login(request):
 def logout(request):
     if request.method == "POST":
         auth.logout(request)
-        messages.error(request,"You Logout..!")
+        messages.success(request,"You Logout..!")
         return redirect("index")
 
 
