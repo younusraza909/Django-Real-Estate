@@ -142,10 +142,10 @@ MESSAGE_TAGS={
     messages.ERROR:"danger"
 }
 
-# #Email Config
-# EMAIL_USE_TLS=True
-# EMAIL_HOST='smtp.gmail.com'
-# EMAIL_HOST_USER='younusraza909@gmail.com'
-# EMAIL_HOST_PASSWORD='y0unu5r@za'
-# EMAIL_PORT=587
+#Email Config
+EMAIL_USE_TLS=True
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_HOST_USER='yousufibrahim2003@gmail.com'
+EMAIL_HOST_PASSWORD='yousuf333'
+EMAIL_PORT=587
 
